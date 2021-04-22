@@ -1,0 +1,16 @@
+{
+    "name": "Text to Wikipedia",
+    "description": "Highlight over a word to go to that Wikipedia article",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions":[
+        "contextMenus",
+        "tabs"
+    ],
+    "icons": {
+        "16": "16.png"
+    }
+}
